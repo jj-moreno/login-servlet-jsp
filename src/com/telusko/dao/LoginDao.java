@@ -26,7 +26,6 @@ public class LoginDao {
 				return true;
 			}
 		} catch (SQLException | ClassNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return false;
